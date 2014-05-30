@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="Map_Name" value="Spawn"/>
+ </properties>
+ <tileset firstgid="1" name="TileA4" tilewidth="32" tileheight="32">
+  <image source="TileA4.png" width="512" height="480"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzllUEOACEIA/WR/v8re9nDxghMq572QGIUrZQCvbXWTRuvOX4jMAWbYKp/rPyrswF8IywVO/KnPH7vk7gqfpT8ze/u5EPFpXG5OqgwMs6Jrit/hVNFswQ3u5vhKHw6OVJqhewpNUC0det/la/Tb2jdnsLdNdLjTmBHenNnJMVU+xfJKzX1/Zs5VGYp5ZDqVY2P5ovi0rok3GUxOXEq56u55GhHrfXV2q1HV283cDNtzHs7/afSDeXDwd6dF6T+/2IPhYpOVQ==
+  </data>
+ </layer>
+</map>

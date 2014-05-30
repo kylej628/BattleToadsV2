@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+#Available moves: up, down, right, left, pause, move_random, look_random
+<Scripts>
+	<Patrol>
+		<Step_1>right</Step_1>
+		<Step_2>pause</Step_2>
+		<Step_3>up</Step_3>
+		<step_4>pause</step_4>
+		<step_5>left</step_5>
+		<step_6>pause</step_6>
+		<step_7>down</step_7>
+		<step_8>pause</step_8>
+	</Patrol>
+	<Guard>
+		<step_1>look_random</step_1>
+		<step_2>pause</step_2>
+	</Guard>
+	<Circles>
+		<step_1>right</step_1>
+		<step_2>up</step_2>
+		<step_3>left</step_3>
+		<step_4>down</step_4>
+	</Circles>
+	<Random>
+		<step_1>move_random</step_1>
+		<step_2>pause</step_2>
+	</Random>
+	<Horizontal>
+		<step_1>right</step_1>
+		<step_2>pause</step_2>
+		<step_3>left</step_3>
+		<step_4>pause</step_4>
+	</Horizontal>
+	<Vertical>
+		<step_1>up</step_1>
+		<step_2>pause</step_2>
+		<step_3>down</step_3>
+		<step_4>pause</step_4>
+	</Vertical>
+</Scripts>

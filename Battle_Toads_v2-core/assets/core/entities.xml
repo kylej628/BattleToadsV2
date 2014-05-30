@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entities>
+	<Guard>
+	#Able to be overridden
+		<Texture path="play/sprites/entities/guard.png"/>
+		<Animation path="play/sprites/entities/guardAnimation.png">
+			<Walking frames="10"/>
+			<Attacking frames="4"/>
+		</Animation>
+		<Health>100</Health>
+		<Type>friendly</Type>
+	</Guard>
+</entities>

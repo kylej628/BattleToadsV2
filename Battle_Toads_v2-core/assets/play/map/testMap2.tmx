@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="Map_Name" value="Wilderness"/>
+ </properties>
+ <tileset firstgid="1" name="Tiles" tilewidth="32" tileheight="32">
+  <image source="TileA4.png" width="512" height="480"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzdVjESwCAIc/D/n/Cj7dDJk5KE6PU6cF2EBBOkvbXW7xjP92SMBHdMgeSguGitFX7Gc86ZcZU+stpv93pSW6VHtC8Wu6IP49tVHVZbFs+hKYK72yNfw63OpDp7qveiGo56Kj8nJhOne824VrylahfhOLER/yF8GP2YfRflZFwUL2T12F3t0mCnz7N+K/zR85V/HPWsY66QNwzpzf2esLPrwlX4uPaBy5t/igtFQII2
+  </data>
+ </layer>
+</map>

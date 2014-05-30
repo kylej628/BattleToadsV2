@@ -1,0 +1,41 @@
+<maps>
+	<spawn mID="01" IFP="play/map/spawn.tmx">
+		<gates>
+			<g0001 destination="wilderness" destinationX="4" destinationY="4" />
+			<g0002 destination="city" destinationX="10" destinationY="4" />
+		</gates>
+		<entities>
+			<e0001 type="stationary" name="villager" x="4" y="10" direction="1">
+				<Default>none</Default>
+				#Overrides
+				<Texture  path="play/sprites/entities/villager.png"/>
+				<Animation path="play/sprites/entities/villagerAnimation.png">
+					<walking frames="10" />
+					<attacking frames="4" />
+				</Animation>
+			</e0001>
+			<e0002 type="moving" name="knight" x="10" y="3" direction="3">
+				<Default>none</Default>
+				#Overrides
+				<Texture  path="play/sprites/entities/knight.png"/>
+				<Animation path="play/sprites/entities/knightAnimation.png">
+					<walking frames="10" />
+					<attacking frames="4" />
+				</Animation>
+			</e0002>
+			<e0003 type="stationary" name="Guard" x="10" y="4" direction="3">
+				<Default>Guard</Default>				
+			</e0003>
+		</entities>
+	</spawn>
+	<wilderness mID="02" IFP="play/map/testMap2.tmx">
+		<gates>
+			<g0001 destination="spawn" destinationX="1" destinationY="3" />
+		</gates>
+	</wilderness>
+	<New_Spawn mID="03" IFP="play/map/New_Spawn.tmx">
+		<gates>
+			<g0001 destination="spawn" destinationX="10" destinationY="4" />
+		</gates>
+	</New_Spawn>
+</maps>

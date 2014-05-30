@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="dirt" tilewidth="32" tileheight="32">
+  <image source="dirt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="grass" tilewidth="32" tileheight="32">
+  <image source="grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="37" name="watergrass" tilewidth="32" tileheight="32">
+  <image source="watergrass.png" width="96" height="192"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKEL8/0zDpZDwVVTVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/AQg0fow=
+  </data>
+ </layer>
+ <layer name="Details" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3dlKw0AYBtBB0LrV7c5db13r+v6P5gwkGAeLEUxmbM6Bj6bQi598nUlv0oQAAAB/Zxaz2WSr8CyEsB1zEHMYs9vj88cxJ1lOB5tuelIfO0369HEWc57lYrDppif1cRT0UYvUR9qrUif6KM9+VZe2j77X88uYqyzXg0w2TfOYvSb7hWfhd25j7r7JfcmhJuwh5rHJa+d4UXKoCWv7eGte34M+Suquj270MY78enETvu5V1se40npoz3negfUxvmX7U5v2OqKPcaQ+2nXRnvv8t1U61sc4nmKee+Sl1IAAAABUY156AAAAAAAAAFZCuu+wz/2GjEMfddFHXfQxnu5//izLRsx6c8yw0nd/LXzel/5TGJa9qC76qIs+6qKPuuijLvoAAAAAAAAAAAAApmKWvfd8cAD4f/L/Ivf8YwAAgNXxAdKNFyU=
+  </data>
+ </layer>
+</map>
